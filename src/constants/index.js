@@ -25,7 +25,12 @@ import {
 } from "../assets";
 
 export const navLinks = [
+
   {
+    id: "hero",
+    title: "profile",
+  },
+  { 
     id: "about",
     title: "About",
   },
@@ -37,6 +42,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+
 ];
 
 const services = [
