@@ -257,4 +257,12 @@
   50% {
     border-color: transparent
   }
+  
 }
+
+@media (max-width: 449px) {
+  .hi {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+}
+

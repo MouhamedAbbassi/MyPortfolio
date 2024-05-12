@@ -11,19 +11,19 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#181818]' />
-          <div className='w-1 sm:h-80 h-40 black-gradient' />
+          <div className='w-6 h-6 rounded-full bg-green' />
+          <div className='w-1 sm:h-60 h-30 xs:h-40 h-20 bg-green border border-green' style={{ borderRadius: '40% 40% 30% 30% / 100% 100% 0 0' }} />
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} typing-demo  text-white`}>
-            Hi, I'm <span className='text-[#363636]'>ABBASSI Mouhamed.</span>
+          <h1 className={`${styles.heroHeadText} typing-demo  text-white hi`}>
+            Hi, I'm <span className='text-green '>ABBASSI Mouhamed!</span>
           </h1>
 
 
           
           <p className={`${styles.heroSubText} mt-2 font-Geneva text-white-100`}>
-          IT Engineering student  <br className='sm:block hidden' />
+          IT Engineering student  <br/>
           specializing in web development.
           </p>
         </div>

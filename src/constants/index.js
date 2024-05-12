@@ -1,27 +1,18 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  tailwind,
   nodejs,
   mongodb,
-  git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   mysql,
+  angularjs,
+  nestjs,
+  express,
+  jenkins,
+  spring,
+  devops,
+  micro,
 } from "../assets";
 
 export const navLinks = [
@@ -45,34 +36,9 @@ export const navLinks = [
 
 ];
 
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+
   {
     name: "JavaScript",
     icon: javascript,
@@ -82,185 +48,104 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "angular",
+    icon: angularjs,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Nest JS",
+    icon: nestjs,
+  },
+  {
+    name: "Express JS",
+    icon: express,
+  },
+  {
+    name: "Spring",
+    icon: spring,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "git",
-    icon: git,
+    name: "mysql",
+    icon: mysql,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+ 
   {
     name: "docker",
     icon: docker,
   },
   {
-    name: "mysql",
-    icon: mysql,
+    name: "jenkins",
+    icon: jenkins,
   },
+ 
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Devops Project",
+    company_name: "Spring/Angular",
+    icon: devops,
+    iconBg: "#000",
+    date: "February 2024 - April 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Jenkins: Orchestrates automated builds, tests, and deployments for rapid software delivery.",
+      "DockerHub: Central repository for Docker images, enabling seamless deployment across environments.",
+      "Nexus: Secure repository manager for efficient storage of artifacts, fostering collaboration and reducing duplication.",
+      "SonarQube: Analyzes code for bugs, vulnerabilities, and code smells, promoting cleaner, maintainable code.",
+      "Prometheus: Gathers metrics for monitoring system health and performance.",
+      "Grafana: Provides customizable dashboards and graphs for real-time monitoring and trend analysis.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Microservices Project",
+    company_name: "Express.js/Spring/Angular",
+    icon: micro,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "December 2023 - February 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Eureka Discovery Server: Acts as the service registry and discovery mechanism, allowing microservices to locate and communicate with each other dynamically.",
+      "Spring Cloud Gateway: Serves as the API gateway, providing a single entry point for clients to access various microservices. It offers routing, filtering, and load balancing functionalities to optimize traffic flow.",
+      "Keycloak: Handles authentication and authorization for microservices, ensuring secure access control. With support for OpenID Connect and OAuth 2.0, Keycloak enables seamless integration and centralized user management.",
+      "Docker Compose: Streamlines the deployment and management of microservices by defining them as isolated, containerized units. Docker Compose simplifies the setup of the entire development environment, fostering consistency and reproducibility.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "NestJS Project",
+    company_name: "Project Management Platform",
+    icon: nestjs,
+    iconBg: "#fff",
+    date: "October 2023 - november 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "This project aims to streamline project management processes by providing a comprehensive platform.",
+      " Built on the NestJS framework for the backend and React for the frontend, this platform offers a user-friendly interface and powerful features to enhance collaboration, organization, and productivity for teams of all sizes.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "ExpressJS Project",
+    company_name: "E-commerce Platform for Parapharmacy",
+    icon: express,
+    iconBg: "#828282",
+    date: "Jun 2023 - August  2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "e-commerce project specializes in offering a comprehensive online platform tailored specifically for parapharmacie products. ",
+      "Leveraging the power of ExpressJS, this platform provides a seamless shopping experience for customers seeking a wide range of health, wellness, and beauty products.",
+      "With an intuitive interface built with ReactJS, our platform delivers a seamless shopping experience, providing easy navigation and smooth interactions for users.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
-const projects = [
-  {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-];
 
-export { services, technologies, experiences, testimonials, projects };
+export {  technologies, experiences };

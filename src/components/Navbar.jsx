@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { menu, close } from "../assets";
-
+import { menu } from "../assets";
+import { close } from "../assets";
+import { logo } from "../assets";
+import '../index.css';
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -36,16 +38,16 @@ const Navbar = () => {
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
           to='/'
-          className='flex items-center gap-2'
+          className='flex items-center gap-2 '
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src="../../src/assets/logoPF.png"  className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px]  font-extrabold cursor-pointer flex '>
+          <img src={logo}  className='w-9 h-9 object-contain' />
+          <p className='text-white text-[16px]  font-extrabold cursor-pointer flex '>
             
-            <span className='sm:block hidden'> | FULLSTACK Web Developer</span>
+            <span > | FULLSTACK Web Engineer</span>
           </p>
         </Link>
 
