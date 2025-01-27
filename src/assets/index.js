@@ -15,6 +15,8 @@ import menu from "./menu.svg";
 import logo from "./logoPF.png";
 import devops from "./tech/devops.png";
 import micro from "./tech/micro.png";
+import me from "./tech/me.png";
+import nextjs from "./tech/nextjs.png";
 import close from "./close.svg";
 
 export {
@@ -34,5 +36,7 @@ export {
   spring,
   logo,
   devops,
-  micro
+  micro,
+  me,
+  nextjs,
 };

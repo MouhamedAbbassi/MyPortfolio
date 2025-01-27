@@ -16,13 +16,13 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className=' text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript,
-        JavaScript and Java, also expertise in frameworks like React.js, Angular.js, Nest.js, Express.js and
-        Spring Framework. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+    I'm a dedicated and highly skilled Software Engineer with extensive experience in TypeScript, 
+    JavaScript, and Java, complemented by expertise in cutting-edge frameworks such as React.js, 
+    Next.js, Angular.js, Nest.js, Express.js, and the Spring Framework. With a passion for building
+    efficient, scalable, and user-focused solutions, I thrive on turning complex problems into elegant,
+    real-world applications.
       </motion.p>
 
  

@@ -264,5 +264,12 @@
   .hi {
     font-size: 18px; /* Adjust font size for smaller screens */
   }
+
+  .hash-span {
+    margin-top: -130px;
+    padding-bottom: 1px;
+    display: block;
+  }
+  
 }
 

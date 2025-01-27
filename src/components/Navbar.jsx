@@ -44,7 +44,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo}  className='w-9 h-9 object-contain' />
+          <img src={logo}  className='w-12 h-12 object-contain' />
           <p className='text-white text-[16px]  font-extrabold cursor-pointer flex '>
             
             <span > | FULLSTACK Web Engineer</span>

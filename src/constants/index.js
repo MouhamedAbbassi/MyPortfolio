@@ -13,6 +13,7 @@ import {
   spring,
   devops,
   micro,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -38,7 +39,10 @@ export const navLinks = [
 
 
 const technologies = [
-
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -48,12 +52,12 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "angular",
@@ -88,13 +92,27 @@ const technologies = [
     name: "jenkins",
     icon: jenkins,
   },
+
  
 ];
 
 const experiences = [
   {
+    title: "Somatel Internship ",
+    company_name: "NextJS/ExpressJS/PostgreSQL",
+    icon: nextjs,
+    iconBg: "#000",
+    date: "Jully 2024 - September 2024",
+    points: [
+      "Designed and developed an interactive dashboard for Orange and Telecom Tunisia users, optimizing data display and enhancing user experience.",
+      "• Developed a real-time backend using GraphQL and Apollo Server, optimizing API management and business logic.",
+      "• Implemented a dynamic frontend with NextJs 14 and Apollo Client, ensuring instant data updates.",
+      "• Tech stack: ExpressJs, NextJs, PostgreSQL, GraphQL, Apollo.",
+    ],
+  },
+  {
     title: "Devops Project",
-    company_name: "Spring/Angular",
+    company_name: "Spring/ExpressJS/Angular/MongoDB",
     icon: devops,
     iconBg: "#000",
     date: "February 2024 - April 2024",
@@ -109,7 +127,8 @@ const experiences = [
   },
   {
     title: "Microservices Project",
-    company_name: "Express.js/Spring/Angular",
+    company_name: `ExpressJS/Spring/Django/Angular/
+    H2, MySQL, PostgreSQL, MongoDB`,
     icon: micro,
     iconBg: "#E6DEDD",
     date: "December 2023 - February 2024",
@@ -121,8 +140,8 @@ const experiences = [
     ],
   },
   {
-    title: "NestJS Project",
-    company_name: "Project Management Platform",
+    title: "Project Management Platform",
+    company_name: "NestJS/ReactJS/MySQL",
     icon: nestjs,
     iconBg: "#fff",
     date: "October 2023 - november 2023",
@@ -133,8 +152,8 @@ const experiences = [
     ],
   },
   {
-    title: "ExpressJS Project",
-    company_name: "E-commerce Platform for Parapharmacy",
+    title: " SwiftCode Internship",
+    company_name: "ReactJS/ExpressJS/MongoDB",
     icon: express,
     iconBg: "#828282",
     date: "Jun 2023 - August  2023",
